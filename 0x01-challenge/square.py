@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Square module
-"""
+""" Square module """
 
 
 class Square:
@@ -12,7 +10,7 @@ class Square:
     height = 0
 
     def __init__(self, *args, **kwargs):
-        """ square initialized """
+        """ init """
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -25,7 +23,7 @@ class Square:
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
-        """ string representation"""
+        """ comment """
         return "{}/{}".format(self.width, self.height)
 
 
