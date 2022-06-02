@@ -10,7 +10,7 @@ class Square:
     height = 0
 
     def __init__(self, *args, **kwargs):
-        """ init """
+        """ init documentation idk what else """
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -19,11 +19,11 @@ class Square:
         return self.width * self.height
 
     def permiter_of_my_square(self):
-        """ Permiter """
+        """ Permiter documentatio idk what else"""
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
-        """ comment """
+        """ str documentation idk what else"""
         return "{}/{}".format(self.width, self.height)
 
 
