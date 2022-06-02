@@ -13,12 +13,12 @@ class User():
 
     @property
     def email(self):
-        """ Documentation """
+        """ Documentation for email """
         return self.__email
 
     @email.setter
     def email(self, value):
-        """ Documentation """
+        """ Documentation for email """
         if type(value) is not str:
             raise TypeError("email must be a string")
         self.__email = value
